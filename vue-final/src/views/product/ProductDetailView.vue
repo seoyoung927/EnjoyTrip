@@ -14,11 +14,6 @@ const localAuth = localAuthAxios();
 const route = useRoute();
 const productId = route.params.id;
 
-import imgSeoul1 from "@/assets/img/seoul/seoul1.jpg";
-import imgSeoul2 from "@/assets/img/seoul/seoul2.jpg";
-import imgSeoul3 from "@/assets/img/seoul/seoul3.jpg";
-import imgSeoul4 from "@/assets/img/seoul/seoul4.jpg";
-
 const card = ref({
   booked: "",
   content: "", 
